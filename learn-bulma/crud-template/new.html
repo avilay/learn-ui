@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Show</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <script src="https://kit.fontawesome.com/5eb4e68635.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar is-dark">
+    <div class="navbar-brand">
+      <a class="navbar-item is-size-3 has-text-weight-semibold" href="./welcome.html">
+        My Awesome App
+      </a>
+
+      <a role="button" class="navbar-burger" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div> <!-- end brand -->
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="./list_grid.html">Resource One</a>
+        <a class="navbar-item is-active" href="./list_list.html">Resource Two</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Tasks</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item">Do Something</a>
+            <a class="navbar-item">Do Some More</a>
+          </div>
+        </div>
+      </div> <!-- end navbar-start -->
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <span class="has-text-info">Welcome Happy Orange</span>
+        </div>
+      </div>
+    </div> <!-- end navbarBasicExample -->
+  </nav>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+          <h1 class="title">New Resource Two</h1>
+          <form>
+
+            <!-- Name -->
+            <div class="field">
+              <label class="label">Name</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="Your Name here">
+              </div>
+            </div>
+
+            <!-- username -->
+            <div class="field">
+              <label class="label">Username</label>
+              <div class="control has-icons-left has-icons-right">
+                <input class="input is-success" type="text" placeholder="Choose a unique username" value="happyorange">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-user"></i>
+                </span>
+                <span class="icon is-small is-right">
+                  <i class="fas fa-check"></i>
+                </span>
+              </div>
+              <p class="help is-success">This username is available.</p>
+            </div>
+
+            <!-- Email -->
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control has-icons-left has-icons-right">
+                <input class="input is-danger" type="email" placeholder="Your email" value="happy2gamil.co">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-small is-right">
+                  <i class="fas fa-exclamation-triangle"></i>
+                </span>
+              </div>
+              <p class="help is-danger">This email is invalid!</p>
+            </div>
+
+            <!-- Cookie -->
+            <div class="field">
+              <label class="label">I like </label>
+              <div class="control">
+                <div class="select">
+                  <select>
+                    <option>Chocolate Chip</option>
+                    <option>Snicker Doodle</option>
+                    <option>Oatmeal Raisin</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Description -->
+            <div class="field">
+              <label class="label">Description</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="Detailed description here..."></textarea>
+              </div>
+            </div>
+
+            <!-- Agreement -->
+            <div class="field">
+              <div class="control">
+                <label class="checkbox">
+                  <input type="checkbox">
+                  I agree to the <a href="#">terms and conditions.</a>
+                </label>
+              </div>
+            </div>
+
+            <!-- Radio -->
+            <div class="field">
+              <label class="label">All I hear is</label>
+              <div class="control">
+                <label class="radio">
+                  <input type="radio" name="gaga">
+                  Radio Ga Ga
+                </label>
+                <label class="radio">
+                  <input type="radio" name="gaga">
+                  Radio Goo Goo
+                </label>
+              </div>
+            </div>
+
+            <!-- buttons -->
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button is-info">Submit</button>
+              </div>
+              <div class="control">
+                <button class="button is-info is-light">Cancel</button>
+              </div>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <footer class="footer">
+      <nav class="level">
+        <div class="level-left">
+          <a class="level-item" href="#">About</a>
+          <span class="level-item">|</span>
+          <a class="level-item" href="#">Team</a>
+          <span class="level-item">|</span>
+          <a class="level-item" href="#">F.A.Q</a>
+          <span class="level-item">|</span>
+          <a class="level-item" href="#">Contact</a>
+        </div>
+        <div class="level-right">
+          <div class="level-item has-text-centered has-text-link">
+            Made with
+            <span class="icon has-text-danger">
+              <i class="fas fa-heart"></i>
+            </span>
+            in Seattle.
+          </div>
+        </div>
+      </nav>
+
+    </footer>
+  </section>
+
+</body>
+
+</html>

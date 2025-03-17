@@ -1,0 +1,328 @@
+---
+title: "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems"
+author: Martin Kleppmann
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/514xvNk9rTL.jpg
+avg_rating: 4.7
+num_ratings: 412
+tags:
+  - programming
+  - design
+  - data
+description: |
+  Data is at the center of many challenges in system design today. Difficult issues need to be figured out, such as scalability, consistency, reliability, efficiency, and maintainability. In addition, we have an overwhelming variety of tools, including relational databases, NoSQL datastores, stream or batch processors, and message brokers. What are the right choices for your application? How do you make sense of all these buzzwords?
+
+  In this practical and comprehensive guide, author Martin Kleppmann helps you navigate this diverse landscape by examining the pros and cons of various technologies for processing and storing data. Software keeps changing, but the fundamental principles remain the same. With this book, software engineers and architects will learn how to apply those ideas in practice, and how to make full use of data in modern applications.
+
+  Peer under the hood of the systems you already use, and learn how to use and operate them more effectively
+  Make informed decisions by identifying the strengths and weaknesses of different tools
+  Navigate the trade-offs around consistency, scalability, fault tolerance, and complexity
+  Understand the distributed systems research upon which modern databases are built
+  Peek behind the scenes of major online services, and learn from their architectures
+---
+title: "Predictably Irrational, Revised and Expanded Edition: The Hidden Forces That Shape Our Decisions"
+author: Dan Ariely
+tags:
+  - psychology
+  - pop
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/51azXiFqujL.jpg
+avg_rating: 4.5
+num_ratings: 1871
+description: |
+  "A marvelous book… thought provoking and highly entertaining."
+  —Jerome Groopman, New York Times bestselling author of How Doctors Think
+
+  "Ariely not only gives us a great read; he also makes us much wiser."
+  —George Akerlof, 2001 Nobel Laureate in Economics
+
+  "Revolutionary."
+  —New York Times Book Review
+
+  Why do our headaches persist after we take a one-cent aspirin but disappear when we take a fifty-cent aspirin? Why do we splurge on a lavish meal but cut coupons to save twenty-five cents on a can of soup?
+
+  When it comes to making decisions in our lives, we think we're making smart, rational choices. But are we?
+
+  In this newly revised and expanded edition of the groundbreaking New York Times bestseller, Dan Ariely refutes the common assumption that we behave in fundamentally rational ways. From drinking coffee to losing weight, from buying a car to choosing a romantic partner, we consistently overpay, underestimate, and procrastinate. Yet these misguided behaviors are neither random nor senseless. They're systematic and predictable—making us predictably irrational.
+---
+title: "Measure What Matters: How Google, Bono, and the Gates Foundation Rock the World with OKRs"
+author: John Doerr
+avg_rating: 4.4
+num_ratings: 644
+tags:
+  - business
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/51G-XiecxvL.jpg
+description: |
+  #1 New York Times Bestseller
+
+  Legendary venture capitalist John Doerr reveals how the goal-setting system of Objectives and Key Results (OKRs) has helped tech giants from Intel to Google achieve explosive growth—and how it can help any organization thrive.
+
+  In the fall of 1999, John Doerr met with the founders of a start-up whom he'd just given $12.5 million, the biggest investment of his career. Larry Page and Sergey Brin had amazing technology, entrepreneurial energy, and sky-high ambitions, but no real business plan. For Google to change the world (or even to survive), Page and Brin had to learn how to make tough choices on priorities while keeping their team on track. They'd have to know when to pull the plug on losing propositions, to fail fast. And they needed timely, relevant data to track their progress—to measure what mattered.
+
+  Doerr taught them about a proven approach to operating excellence: Objectives and Key Results. He had first discovered OKRs in the 1970s as an engineer at Intel, where the legendary Andy Grove ("the greatest manager of his or any era") drove the best-run company Doerr had ever seen. Later, as a venture capitalist, Doerr shared Grove's brainchild with more than fifty companies. Wherever the process was faithfully practiced, it worked.
+
+  In this goal-setting system, objectives define what we seek to achieve; key results are how those top-priority goals will be attained with specific, measurable actions within a set time frame. Everyone's goals, from entry level to CEO, are transparent to the entire organization.
+
+  The benefits are profound. OKRs surface an organization's most important work. They focus effort and foster coordination. They keep employees on track. They link objectives across silos to unify and strengthen the entire company. Along the way, OKRs enhance workplace satisfaction and boost retention.
+
+  In Measure What Matters, Doerr shares a broad range of first-person, behind-the-scenes case studies, with narrators including Bono and Bill Gates, to demonstrate the focus, agility, and explosive growth that OKRs have spurred at so many great organizations. This book will help a new generation of leaders capture the same magic.
+---
+title: "Hooked: How to Build Habit-Forming Products"
+author: Nir Eyal
+avg_rating: 4.6
+num_ratings: 1665
+tags:
+  - business
+  - psychology
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/41q7gZyFigL.jpg
+description: |
+  Revised and Updated, Featuring a New Case Study
+
+  How do successful companies create products people can’t put down?
+
+  Why do some products capture widespread attention while others flop? What makes us engage with certain products out of sheer habit? Is there a pattern underlying how technologies hook us?
+  Nir Eyal answers these questions (and many more) by explaining the Hook Model—a four-step process embedded into the products of many successful companies to subtly encourage customer behavior. Through consecutive “hook cycles,” these products reach their ultimate goal of bringing users back again and again without depending on costly advertising or aggressive messaging.
+
+  Hooked is based on Eyal’s years of research, consulting, and practical experience. He wrote the book he wished had been available to him as a start-up founder—not abstract theory, but a how-to guide for building better products. Hooked is written for product managers, designers, marketers, start-up founders, and anyone who seeks to understand how products influence our behavior.
+
+  Eyal provides readers with:
+
+  • Practical insights to create user habits that stick.
+  • Actionable steps for building products people love.
+
+  • Fascinating examples from the iPhone to Twitter, Pinterest to the Bible App, and many other habit-forming products.
+---
+title: "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy"
+author: Cathy O'Neil
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/51V3piRZY4L.jpg
+avg_rating: 4.2
+num_ratings: 544
+tags:
+  - ai
+  - data
+description: |
+  Longlisted for the National Book Award
+  New York Times Bestseller
+
+  A former Wall Street quant sounds an alarm on the mathematical models that pervade modern life — and threaten to rip apart our social fabric
+
+  We live in the age of the algorithm. Increasingly, the decisions that affect our lives—where we go to school, whether we get a car loan, how much we pay for health insurance—are being made not by humans, but by mathematical models. In theory, this should lead to greater fairness: Everyone is judged according to the same rules, and bias is eliminated.
+
+  But as Cathy O’Neil reveals in this urgent and necessary book, the opposite is true. The models being used today are opaque, unregulated, and uncontestable, even when they’re wrong. Most troubling, they reinforce discrimination: If a poor student can’t get a loan because a lending model deems him too risky (by virtue of his zip code), he’s then cut off from the kind of education that could pull him out of poverty, and a vicious spiral ensues. Models are propping up the lucky and punishing the downtrodden, creating a “toxic cocktail for democracy.” Welcome to the dark side of Big Data.
+
+  Tracing the arc of a person’s life, O’Neil exposes the black box models that shape our future, both as individuals and as a society. These “weapons of math destruction” score teachers and students, sort résumés, grant (or deny) loans, evaluate workers, target voters, set parole, and monitor our health.
+
+  O’Neil calls on modelers to take more responsibility for their algorithms and on policy makers to regulate their use. But in the end, it’s up to us to become more savvy about the models that govern our lives. This important book empowers us to ask the tough questions, uncover the truth, and demand change.
+
+  — Longlist for National Book Award (Non-Fiction)
+  — Goodreads, semi-finalist for the 2016 Goodreads Choice Awards (Science and Technology)
+  — Kirkus, Best Books of 2016
+  — New York Times, 100 Notable Books of 2016 (Non-Fiction)
+  — The Guardian, Best Books of 2016
+  — WBUR's "On Point," Best Books of 2016: Staff Picks
+  — Boston Globe, Best Books of 2016, Non-Fiction
+---
+title: "Unity 2018 Game Development in 24 Hours, Sams Teach Yourself"
+author: Mike Geig
+avg_rating: 4.0
+num_ratings: 14
+tags:
+  - programming
+  - game
+  - diy
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/516k%2BV1eT-L._SX380_BO1,204,203,200_.jpg
+description: |
+  In just 24 lessons of one hour or less, Sams Teach Yourself Unity Game Development in 24 Hours will help you master the Unity 2018 game engine at the heart of Ori and the Blind Forest, Firewatch, Monument Valley, and many other sizzling-hot games! This book’s straightforward, step-by-step approach teaches you everything from the absolute basics through sophisticated game physics, animation, and mobile device deployment
+  techniques. Every lesson builds on what you’ve already learned, giving you a rock-solid foundation for real-world success.
+
+  Step-by-step instructions carefully walk you through the most common Unity game development tasks.
+  Practical, hands-on examples show you how to apply what you learn.
+  Quizzes and exercises help you test your knowledge and stretch your skills.
+  Notes and Tips point out shortcuts and solutions
+
+  Learn how to…
+
+  Get up and running fast with the Unity 2018 game engine and editor
+  Work efficiently with Unity’s graphical asset pipeline
+  Make the most of lights and cameras
+  Sculpt stunning worlds with Unity’s terrain and environmental tools
+  Script tasks ranging from capturing input to building complex behaviors
+  Quickly create repeatable, reusable game objects with prefabs
+  Implement easy, intuitive game user interfaces
+  Control players through built-in and custom character controllers
+  Build realistic physical and trigger collisions
+  Leverage the full power of Unity’s Animation and new Timeline systems
+  Integrate complex audio into your games
+  Use mobile device accelerometers and multi-touch displays
+  Build engaging 2D games with Unity’s 2D tools and Tilemap
+  Apply the “finishing touches” and deploy your games
+---
+title: "The Asshole Survival Guide: How to Deal with People Who Treat You Like Dirt"
+author: Robert I. Sutton
+avg_rating: 4.0
+num_ratings: 164
+tags:
+  - business
+  - self help
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/419CQwIuX3L.jpg
+description: |
+  “This book is a contemporary classic—a shrewd and spirited guide to protecting ourselves from the jerks, bullies, tyrants, and trolls who seek to demean. We desperately need this antidote to the a-holes in our midst.”—Daniel H. Pink, best-selling author of To Sell Is Human and Drive
+
+  How to avoid, outwit, and disarm assholes, from the author of the classic The No Asshole Rule
+  As entertaining as it is useful, The Asshole Survival Guide delivers a cogent and methodical game plan for anybody who feels plagued by assholes. Sutton starts with diagnosis—what kind of asshole problem, exactly, are you dealing with? From there, he provides field‑tested, evidence‑based, and often surprising strategies for dealing with assholes—avoiding them, outwitting them, disarming them, sending them packing, and developing protective psychological armor. Sutton even teaches readers how to look inward to stifle their own inner jackass.
+  Ultimately, this survival guide is about developing an outlook and personal plan that will help you preserve the sanity in your work life, and rescue all those perfectly good days from being ruined by some jerk.
+
+  “Thought-provoking and often hilarious . . . An indispensable resource.”—Gretchen Rubin, best-selling author of The Happiness Project and Better Than Before
+
+  “At last . . . clear steps for rejecting, deflecting, and deflating the jerks who blight our lives . . . Useful, evidence-based, and fun to read.”—Robert Cialdini, best-selling author of Influence and Pre-Suasion
+---
+title: "Scala for the Impatient"
+author: Cay S. Horstmann
+avg_rating: 4.0
+num_ratings: 17
+tags:
+  - programming
+  - diy
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/51KeoUudllL._SX381_BO1,204,203,200_.jpg
+description: |
+  Interest in the Scala programming language continues to grow for many reasons. Scala embraces the functional programming style without abandoning the object-oriented paradigm, and it allows you to write programs more concisely than in Java. Because Scala runs on the JVM, it can access any Java library and is interoperable with familiar Java frameworks. Scala also makes it easier to leverage the full power of concurrency.
+
+  Written for experienced Java, C++, or C# programmers who are new to Scala or functional programming, Scala for the Impatient, Second Edition, introduces the key Scala concepts and techniques you need in order to be productive quickly. It is the perfect introduction to the language, particularly for impatient readers who want to learn the fundamentals of Scala so they can start coding quickly. It doesn’t attempt to exhaustively list all the features of the language or make you suffer through long and contrived examples. Instead, carefully crafted examples and hands-on activities guide you through well-defined stages of competency, from basic to expert.
+
+  This revised edition has been thoroughly updated for Scala 2.12 and reflects current Scala usage. It includes added coverage of recent Scala features, including string interpolation, dynamic invocation, implicit classes, and futures. Scala is a big language, but you can use it effectively without knowing all of its details intimately. This title provides precisely the information that you need to get started in compact, easy-to-understand chunks.
+
+  Get started quickly with Scala’s interpreter, syntax, tools, and unique idioms
+  Master core language features: functions, arrays, maps, tuples, packages, imports, exception handling, and more
+  Become familiar with object-oriented programming in Scala: classes, inheritance, and traits
+  Use Scala for real-world programming tasks: working with files, regular expressions, and XML
+  Work with higher-order functions and the powerful Scala collections library
+  Leverage Scala’s powerful pattern matching and case classes
+  Create concurrent programs with Scala futures
+  Implement domain-specific languages
+  Understand the Scala type system
+  Apply advanced “power tools,” such as annotations, implicits, and type classes
+---
+title: "Core Java for the Impatient"
+author: Cay S. Horstmann
+avg_rating: 4.3
+num_ratings: 37
+tags:
+  - programming
+  - diy
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/51op7Xwf%2BAL._SX382_BO1,204,203,200_.jpg
+description: |
+  The release of Java SE 8 introduced significant enhancements that impact the Core Java technologies and APIs at the heart of the Java platform. Many old Java idioms are no longer required and new features like lambda expressions will increase programmer productivity, but navigating these changes can be challenging.
+
+  Core Java® for the Impatient is a complete but concise guide to Java SE 8. Written by Cay Horstmann—the author of Java SE 8 for the Really Impatient and Core Java™, the classic, two-volume introduction to the Java language—this indispensable new tutorial offers a faster, easier pathway for learning the language and libraries. Given the size of the language and the scope of the new features introduced in Java SE 8, there’s plenty of material to cover, but it’s presented in small chunks organized for quick access and easy understanding.
+
+  If you’re an experienced programmer, Horstmann’s practical insights and sample code will help you quickly take advantage of lambda expressions (closures), streams, and other Java language and platform improvements. Horstmann covers everything developers need to know about modern Java, including
+
+  Crisp and effective coverage of lambda expressions, enabling you to express actions with a concise syntax
+  A thorough introduction to the new streams API, which makes working with data far more flexible and efficient
+  A treatment of concurrent programming that encourages you to design your programs in terms of cooperating tasks instead of low-level threads and locks
+  Up-to-date coverage of new libraries like Date and Time
+  Other new features that will be especially valuable for server-side or mobile programmers
+  Whether you are just getting started with modern Java or are an experienced developer, this guide will be invaluable for anyone who wants to write tomorrow’s most robust, efficient, and secure Java code.
+---
+title: "Learning Spark: Lightning-Fast Big Data Analysis"
+author: Holden Karau
+avg_rating: 4.1
+num_ratings: 147
+tags:
+  - programming
+  - diy
+  - data
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/51Bc6CVwWSL._SX379_BO1,204,203,200_.jpg
+description: |
+  Data in all domains is getting bigger. How can you work with it efficiently? Recently updated for Spark 1.3, this book introduces Apache Spark, the open source cluster computing system that makes data analytics fast to write and fast to run. With Spark, you can tackle big datasets quickly through simple APIs in Python, Java, and Scala. This edition includes new information on Spark SQL, Spark Streaming, setup, and Maven coordinates.
+
+  Written by the developers of Spark, this book will have data scientists and engineers up and running in no time. You’ll learn how to express parallel jobs with just a few lines of code, and cover applications from simple batch jobs to stream processing and machine learning.
+
+  Quickly dive into Spark capabilities such as distributed datasets, in-memory caching, and the interactive shell
+  Leverage Spark’s powerful built-in libraries, including Spark SQL, Spark Streaming, and MLlib
+  Use one programming paradigm instead of mixing and matching tools like Hive, Hadoop, Mahout, and Storm
+  Learn how to deploy interactive, batch, and streaming applications
+  Connect to data sources including HDFS, Hive, JSON, and S3
+  Master advanced topics like data partitioning and shared variables
+---
+title: "The Power of Habit: Why We Do What We Do in Life and Business"
+author: Charles Duhigg
+avg_rating: 4.5
+tags:
+  - psychology
+num_ratings: 7492
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/51Q4AwpPDkL.jpg
+description: |
+  NEW YORK TIMES BESTSELLER • This instant classic explores how we can change our lives by changing our habits.
+
+  NAMED ONE OF THE BEST BOOKS OF THE YEAR BY The Wall Street Journal • Financial Times
+
+  In The Power of Habit, award-winning business reporter Charles Duhigg takes us to the thrilling edge of scientific discoveries that explain why habits exist and how they can be changed. Distilling vast amounts of information into engrossing narratives that take us from the boardrooms of Procter & Gamble to the sidelines of the NFL to the front lines of the civil rights movement, Duhigg presents a whole new understanding of human nature and its potential. At its core, The Power of Habit contains an exhilarating argument: The key to exercising regularly, losing weight, being more productive, and achieving success is understanding how habits work. As Duhigg shows, by harnessing this new science, we can transform our businesses, our communities, and our lives.
+
+  With a new Afterword by the author
+
+  “Sharp, provocative, and useful.”—Jim Collins
+
+  “Few [books] become essential manuals for business and living. The Power of Habit is an exception. Charles Duhigg not only explains how habits are formed but how to kick bad ones and hang on to the good.”—Financial Times
+
+  “A flat-out great read.”—David Allen, bestselling author of Getting Things Done: The Art of Stress-Free Productivity
+
+  “You’ll never look at yourself, your organization, or your world quite the same way.”—Daniel H. Pink, bestselling author of Drive and A Whole New Mind
+
+  “Entertaining . . . enjoyable . . . fascinating . . . a serious look at the science of habit formation and change.”—The New York Times Book Review
+---
+title: "If You Meet the Buddha on the Road, Kill Him: The Pilgrimage Of Psychotherapy Patients"
+author: Sheldon B. Knopp
+avg_rating: 4.3
+num_ratings: 220
+tags:
+  - psychology
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/51iTIY6WtvL.jpg
+description: |
+  A fresh, realistic approach to altering one's destiny and accepting the responsibility that grows with freedom.
+
+  No meaning that comes from outside of ourselves is real. The Buddahood of each of us has already been obtained. We only need to recognize it.
+
+  “The most important things that each man must learn no one can teach him. Once he accepts this disappointment, he will be able to stop depending on the therapist, the guru who turns out to be just another struggling human being.”
+
+  Using the myth of Gilgamesh, Siddhartha, The Wife of Bath, Don Quizote . . . the works of Buber, Ginsberg, Shakespeare, Karka, Nin, Dante and Jung . . . a brilliant psychotherapist, guru and pilgrim shares the epic tales and intimate revelations that help to shape Everyman's journey through life.
+---
+title: "Building Machine Learning Systems with Python"
+author: Willi Richert, Luis Pedro Coelho
+avg_rating: 3.8
+tags:
+  - programming
+  - ai
+num_ratings: 39
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/51kMAMAiMPL.jpg
+description: |
+  In Detail
+  Machine learning, the field of building systems that learn from data, is exploding on the Web and elsewhere. Python is a wonderful language in which to develop machine learning applications. As a dynamic language, it allows for fast exploration and experimentation and an increasing number of machine learning libraries are developed for Python.
+
+  Building Machine Learning system with Python shows you exactly how to find patterns through raw data. The book starts by brushing up on your Python ML knowledge and introducing libraries, and then moves on to more serious projects on datasets, Modelling, Recommendations, improving recommendations through examples and sailing through sound and image processing in detail.
+
+  Using open-source tools and libraries, readers will learn how to apply methods to text, images, and sounds. You will also learn how to evaluate, compare, and choose machine learning techniques.
+
+  Written for Python programmers, Building Machine Learning Systems with Python teaches you how to use open-source libraries to solve real problems with machine learning. The book is based on real-world examples that the user can build on.
+
+  Readers will learn how to write programs that classify the quality of StackOverflow answers or whether a music file is Jazz or Metal. They will learn regression, which is demonstrated on how to recommend movies to users. Advanced topics such as topic modeling (finding a text’s most important topics), basket analysis, and cloud computing are covered as well as many other interesting aspects.
+
+  Building Machine Learning Systems with Python will give you the tools and understanding required to build your own systems, which are tailored to solve your problems.
+---
+title: "Deep Learning"
+author: Ian Goodfellow, Youshua Bengio, Aaron Courville
+avg_rating: 4.0
+num_ratings: 582
+tags:
+  - ai
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/610HnULa0dL._SX378_BO1,204,203,200_.jpg
+description: |
+  An introduction to a broad range of topics in deep learning, covering mathematical and conceptual background, deep learning techniques used in industry, and research perspectives.
+
+  “Written by three experts in the field, Deep Learning is the only comprehensive book on the subject.”
+  —Elon Musk, cochair of OpenAI; cofounder and CEO of Tesla and SpaceX
+
+  Deep learning is a form of machine learning that enables computers to learn from experience and understand the world in terms of a hierarchy of concepts. Because the computer gathers knowledge from experience, there is no need for a human computer operator to formally specify all the knowledge that the computer needs. The hierarchy of concepts allows the computer to learn complicated concepts by building them out of simpler ones; a graph of these hierarchies would be many layers deep. This book introduces a broad range of topics in deep learning.
+
+  The text offers mathematical and conceptual background, covering relevant concepts in linear algebra, probability theory and information theory, numerical computation, and machine learning. It describes deep learning techniques used by practitioners in industry, including deep feedforward networks, regularization, optimization algorithms, convolutional networks, sequence modeling, and practical methodology; and it surveys such applications as natural language processing, speech recognition, computer vision, online recommendation systems, bioinformatics, and videogames. Finally, the book offers research perspectives, covering such theoretical topics as linear factor models, autoencoders, representation learning, structured probabilistic models, Monte Carlo methods, the partition function, approximate inference, and deep generative models.
+
+  Deep Learning can be used by undergraduate or graduate students planning careers in either industry or research, and by software engineers who want to begin using deep learning in their products or platforms. A website offers supplementary material for both readers and instructors.
+---

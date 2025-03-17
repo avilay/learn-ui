@@ -1,0 +1,82 @@
+#:kivy 1.11.1
+
+<BookItem>
+    orientation: "vertical"
+    padding: 50, 0, 50, 0
+    spacing: 20
+    on_press: self.show_book_details()
+
+    Label:
+        text_size: self.size
+        text: root.title
+        halign: "left"
+        font_size: "20sp"
+        shorten: True
+        shorten_from: "right"
+
+    Label:
+        text_size: self.size
+        halign: "left"
+        valign: "top"
+        text: "by " + root.author
+
+<BookDetails>
+    GridLayout:
+        cols: 2
+
+        Image:
+            source: root.book.thumbnail
+            size: self.texture_size
+
+        Label:
+            text: "Some text here"
+
+<SearchBox>
+    size_hint: 0.5, None
+    padding: 50, 0, 0, 0
+
+    TextInput:
+        padding: 30
+        size_hint: 0.80, None
+        hint_text: "Search term here"
+
+    Button:
+        size_hint: 0.20, None
+        text: "Search"
+
+<UnderConstruction>
+    text: "This page is under construction"
+
+<TopNav>
+    ActionView:
+        id: av
+
+        ActionPrevious:
+            title: "CRUD"
+            with_previous: False
+            on_release: root.on_home()
+
+        ActionButton:
+            id: games
+            text: "Games"
+            on_release: root.on_games()
+
+        ActionButton:
+            id: books
+            text: "Books"
+            on_release: root.on_books()
+
+        ActionSeparator:
+
+        ActionGroup:
+            text: "Account"
+
+            ActionButton:
+                text: "Login"
+
+            ActionButton:
+                text: "Logout"
+
+<JumboTron>
+    text: "Welcome here!"
+    font_size: "80sp"

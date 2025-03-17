@@ -1,0 +1,65 @@
+#:kivy 1.11.1
+
+<TopNav>
+    ActionView:
+        id: av
+
+        ActionPrevious:
+            title: "App Home"
+            with_previous: False
+            on_release: root.on_home()
+
+        ActionButton:
+            id: m1
+            text: "Menu One"
+            on_release: root.on_menu_one()
+
+        ActionSeparator:
+
+        ActionButton:
+            id: m2
+            text: "Menu Two"
+            on_release: root.on_menu_two()
+
+
+<Welcome>
+    text: "Welcome here!"
+    font_size: "80sp"
+
+<ContentsOne>
+    orientation: "tb-lr"
+    padding: 10
+    spacing: 5
+
+    Button:
+        text: "Button 1"
+        size_hint: .2, .4
+
+    Button:
+        text: "Button 2"
+        size_hint: .2, .4
+
+    Button:
+        text: "Button 3"
+        size_hint: .2, .4
+
+    Button:
+        text: "Button 4"
+        size_hint: .2, .4
+
+    Button:
+        text: "Button 5"
+        size_hint: .2, .4
+
+    Button:
+        text: "Button 6"
+        size_hint: .2, .4
+
+<ContentsTwo>
+    Label:
+        id: l1
+        text: "This is some text"
+
+    Label:
+        id: l2
+        text: "This is some more text"

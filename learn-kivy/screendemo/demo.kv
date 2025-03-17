@@ -1,0 +1,39 @@
+#:kivy 1.11.1
+#:import sm kivy.uix.screenmanager
+
+ScreenManager:
+    id: sm
+    transition: sm.FadeTransition()
+
+    Screen:
+        name: "screen1"
+
+        canvas:
+            Color:
+                rgb: 0.8, 0.2, 0.2
+
+            Rectangle:
+                size: self.size
+
+        AnchorLayout:
+            Button:
+                size_hint: None, None
+                size: "150dp", "48dp"
+                text: "Go to screen 2"
+                on_release: sm.current = "screen2"
+
+    Screen:
+        name: "screen2"
+
+        canvas:
+            Color:
+                rgb: 0.2, 0.8, 0.2
+            Rectangle:
+                size: self.size
+
+        AnchorLayout:
+            Button:
+                size_hint: None, None
+                size: "150dp", "48dp"
+                text: "Go to screen 1"
+                on_release: sm.current = "screen1"

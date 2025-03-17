@@ -1,0 +1,23 @@
+html,
+body {
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: aliceblue;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+}
