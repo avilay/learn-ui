@@ -1,0 +1,19 @@
+{
+    "isTransparent": true,
+    "material": "glass",
+    "capacityInOz": 16,
+    "cookies": [
+        {
+            "flavor": "Chocolate Chip",
+            "calories": 200
+        },
+        {
+            "flavor": "Oatmeal Raisin",
+            "calories": 180
+        },
+        {
+            "flavor": "Snicker Doodle",
+            "calories": 220
+        }
+    ]
+}

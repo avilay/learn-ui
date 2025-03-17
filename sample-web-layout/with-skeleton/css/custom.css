@@ -1,0 +1,42 @@
+nav.horizontal {
+    background-color: #33c3f0;
+    padding: 2px;
+}
+
+nav.horizontal a {
+    text-decoration: none;
+    padding-right: 50px;
+    color: inherit;
+}
+
+nav.vertical {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+nav.vertical a {
+    text-decoration: none;
+    padding-right: 50px;
+    color: #33c3f0;
+}
+
+nav a:hover {
+    color: darkslategray;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    color:ghostwhite;
+}
+
+.menu {
+    padding-top: 7px;
+    color:ghostwhite;
+}
+
+.active {
+    font-weight: 600;
+    color:lightgray;
+}

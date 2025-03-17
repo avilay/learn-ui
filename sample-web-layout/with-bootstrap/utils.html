@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Bootstrap Utiliites Demo</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <section>
+        <h1>Bootstrap Utilities</h1>
+        <p>
+          This page demonstrates some of the harder to grok utilities in bootstrap. There are many more that are easy to
+          understand from the documentation that are not demonstrated here. Check out the full list in
+          <a href="https://getbootstrap.com/docs/5.3/utilities/api/">Bootstrap's Utilities documentation</a>.
+        </p>
+      </section>
+
+      <section>
+        <div class="clearfix">
+          <img src="https://via.placeholder.com/100x30?text=Responsive floated image"
+            class="col-md-6 float-md-end mb-3 ms-md-3" alt="image">
+
+          <h3>Floating Divs</h3>
+          <p>
+            This demos the .float-end class. It causes the image to "float" to the right. I have used .float-md-end
+            instead of .float-end so that I can see how it would look if float-end was not given by narrowing the
+            screen size to less than -md. For some reason whenever I am messing around with the floats I need to set
+            the .clearfix style in the parent. There is some discussion on
+            <a href="https://stackoverflow.com/questions/8554043/what-is-a-clearfix">Stackoverflow on this</a>.
+          </p>
+
+          <p>
+            As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with
+            some actual content in here, rather than just this boring placeholder text that goes on and on, but actually
+            conveys no tangible information at. It simply takes up space and should not really be read.
+          </p>
+
+          <p>
+            And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or
+            some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h3>Spacing</h3>
+        <p>
+          This demos how to set custom margin and padding on any element. I am using the background color here to show
+          this more clearly. Checkout the <a href="https://getbootstrap.com/docs/5.3/utilities/spacing/">Bootstrap
+            Spacing documentation</a>
+          for the shorthand.
+        </p>
+
+        <div class="row">
+          <div class="col mx-4 bg-secondary">
+            Column with 4 unit of margin on both sides using .mx-4 style.
+          </div>
+          <div class="col px-4 bg-secondary-subtle">
+            Column with 4 units of padding on both sides using .px-4 style.
+          </div>
+          <div class="col py-4 bg-secondary">
+            Column with 4 units of padding on both top and bottom using .py-4 style.
+          </div>
+          <div class="col my-4 bg-secondary-subtle">
+            Column with 4 units of margin on both top and bottom using .my-4 style.
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+  </body>
+
+</html>

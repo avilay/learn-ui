@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <style>
+    .is-done {
+      text-decoration: line-through;
+    }
+    </style>
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  <py-env>
+    - paths:
+      - ./utils.py
+  </py-env>
+</head>
+
+<body>
+  <py-script src="./todo.py"></py-script>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title">To Do List</h1>
+
+      <div class="field is-horizontal">
+        <div class="field-body">
+          <div class="field">
+            <input id="new-task" class="input" type="text">
+          </div>
+          <div class="field">
+            <div class="control">
+              <button id="new-task-btn" class="button is-primary" pys-onClick="add_task">Add Task</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div id="task-list" class="container"></div>
+  </section>
+
+  <template id="task-template">
+    <div class="task mt-2">
+      <label class="checkbox">
+        <input type="checkbox">
+        <span></span>
+      </label>
+    </div>
+  </template>
+
+</body>

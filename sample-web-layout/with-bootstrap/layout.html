@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>With Bootstrap</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <section>
+      <div class="container">
+        <p>
+          This section demos .container class, this is equivalent to .container-sm. This means that at the smallest
+          screen size the container is 100% wide. As the screen size expands and hits the small breakpoint, i.e., it is
+          576px
+          then the container is no longer 100%, it is centered on the screen with some set width. At -sm it is 540px, at
+          -md it becomes 720px and so on.
+        </p>
+      </div>
+    </section>
+
+    <hr />
+
+    <section>
+      <div class="container-lg">
+        <p>
+          This section demos .container-lg class. This means that as long as the screen width is less than the -lg size,
+          i.e., 992px, the container will be 100% wide. As soon as the screen expands to -lg size, the container is no
+          longer 100%, it is cenetered with some set width. At -lg it is set to 960px, when the screen expands to -xl
+          width, i.e., 1200px, the container width will be 1140px, and so on.
+        </p>
+      </div>
+    </section>
+
+    <hr />
+
+    <section>
+      <div class="container">
+        <p>
+          This section demonstrates the 12 column grid system. The first row has three auto-sized columns. The second
+          row has the middle column 6 units, but the left and right columns are auto-sized. The third row has the first
+          column of 3 units, second of 6 units, and third of 3 units. This is equivalent to the second row. The fourth
+          row has first column of 4 units, second of 6 units, and third of 2 units. Keep in mind the columns are still
+          fixed width, its just that the width is being automatically calculated. E.g., in R1C1, the column is still
+          4 units wide despite more content.
+        </p>
+        <div class="row text-center">
+          <div class="col">
+            Column 1 of 3: .col Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
+          </div>
+          <div class="col">
+            Column 2 of 3: .col
+          </div>
+          <div class="col">
+            Column 3 of 3: .col
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col">
+            Column 1 of 3: .col
+          </div>
+          <div class="col-6">
+            Column 2 of 3: .col-6
+          </div>
+          <div class="col">
+            Column 3 of 3: .col
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-3">
+            Column 1 of 3: .col-3
+          </div>
+          <div class="col-6">
+            Column 2 of 3: .col-6
+          </div>
+          <div class="col-3">
+            Column 3 of 3: .col-3
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-4">
+            Column 1 of 3: .col-4
+          </div>
+          <div class="col-6">
+            Column 2 of 3: .col-6
+          </div>
+          <div class="col-2">
+            Column 3 of 3: .col-2
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <hr />
+
+    <section>
+      <div class="container">
+        <p>
+          This section demonstrates the responsive column. The concept is similar to .containers, where there is a some
+          default behavior for screens that narrower than the specified width, and then as the screen width expands to
+          pre-defined breakpoints, -sm, -lg, -xl, etc. the behavior changes.
+        </p>
+        <p>
+          In case of columns, in narrower screens the columns are horizontally stacked on top of each other. When the
+          screen hits the specified breakpoint, they start behaviing like real columns. This is how the first row
+          behaves.
+          For screen narrower than the -lg size the columns are stacked on top of each other, for screen sizes -lg and
+          wider, the first column is 3 units, the second column is 4 units wide, and the third column is 5 units.
+        </p>
+        <p>
+          The second row is a bit more sophisticated. The first column is 3 units for screens -lg or wider, but 4 units
+          for -md screens, and beyond that will be horizontally stacked.
+        </p>
+        <p>
+          The third row demonstrates variable width column where the column width adjusts to the size of the content.
+          There is more going on here than just this. The first column is auto-width for smaller screens, for -lg and
+          wider screens, the width is 2 units. The second column is variable width for -md screens. The third column is
+          always auto-width.
+          The fourth row has the same configuration but with smaller content.
+        </p>
+
+        <div class="row text-center">
+          <div class="col-lg-3">
+            Column 1 of 3: .col-lg-3
+          </div>
+          <div class="col-lg-4">
+            Column 2 of 3: .col-lg-4
+          </div>
+          <div class="col-lg-5">
+            Column 3 of 3: .col-lg-5
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md-4 col-lg-3">
+            Column 1 of 3: .col-md-4 .col-lg-3
+          </div>
+          <div class="col-md-4 col-lg-4">
+            Column 2 of 3: .col-md-4 .col-lg-4
+          </div>
+          <div class="col-md-4 col-lg-5">
+            Column 3 of 3: .col-md-4 .col-lg-5
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col col-lg-2">
+            Column 1 of 3: .col .col-lg-2
+          </div>
+          <div class="col-md-auto">
+            Column 2 of 3: .col-md-auto Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
+          </div>
+          <div class="col">
+            Column 3 of 3: .col
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col col-lg-2">
+            Column 1 of 3: .col .col-lg-2
+          </div>
+          <div class="col-md-auto">
+            Column 2 of 3: .col-md-auto Lorem ipsum.
+          </div>
+          <div class="col">
+            Column 3 of 3: .col
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr />
+    <section>
+      <div class="container">
+        <p>
+          It is also possible to horizontally align the columns. See more details in
+          <a href="https://getbootstrap.com/docs/5.3/layout/columns/#alignment">bootstrap docs.</a>
+        </p>
+      </div>
+    </section>
+
+    <hr />
+
+    <section>
+      <div class="container">
+        <p>
+          This section demonstrates offsetting columns by some specified width.
+        </p>
+        <div class="row text-center">
+          <div class="col-4">.col-4</div>
+          <div class="col-4 offset-4">.col-4 .offset-4 Offset this 4-unit column by 4-units.</div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3 Offset this 3-unit column by 3 units.</div>
+          <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3 Offset this 3-unit column by 3 units.</div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 offset-md-3">.col-md-6 .offset-md-3 Offset this 6-unit column by 3 units.</div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <section>
+      <div class="container text-center">
+        <p>Horizontal aligning columns</p>
+
+        <div class="row justify-content-start">
+          <div class="col-4 bg-secondary">
+            .justify-content-start One of two columns
+          </div>
+          <div class="col-4 bg-secondary-subtle">
+            .justify-content-start One of two columns
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-4 bg-secondary">
+            .justify-content-center One of two columns
+          </div>
+          <div class="col-4 bg-secondary-subtle">
+            .justify-content-center One of two columns
+          </div>
+        </div>
+
+        <div class="row justify-content-end">
+          <div class="col-4 bg-secondary">
+            .justify-content-end One of two columns
+          </div>
+          <div class="col-4 bg-secondary-subtle">
+            .justify-content-end One of two columns
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-4">
+            One of two columns
+          </div>
+          <div class="col-4">
+            One of two columns
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-4">
+            One of two columns
+          </div>
+          <div class="col-4">
+            One of two columns
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col-4">
+            One of two columns
+          </div>
+          <div class="col-4">
+            One of two columns
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </body>
+
+</html>

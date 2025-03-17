@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>With UIKit</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="uk-navbar-container">
+      <div class="uk-container">
+        <div uk-navbar>
+
+          <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo" href="index.html" aria-label="Back to Home">Bookmarker</a>
+
+            <!-- search box -->
+            <div class="uk-navbar-left">
+              <div class="uk-navbar-item uk-width-1-1">
+                <form action="javascript:void(0)">
+                  <input class="uk-input uk-width-3-4" type="text" placeholder="Search" aria-label="Input">
+                  <button
+                    class="uk-button uk-button-default uk-padding-small uk-padding-remove-top uk-padding-remove-bottom">
+                    <span class="uk-icon" uk-icon="icon: search"></span>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <!-- end search box-->
+          </div>
+
+          <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+              <li class="uk-active"><a href="#">Bookmarks</a></li>
+              <li><a href="#">Collections</a></li>
+
+              <li>
+                <a href="#" role="button" aria-haspopup="true">More <span uk-navbar-parent-icon=""
+                    class="uk-icon uk-navbar-parent-icon"></span></a>
+                <div class="uk-navbar-dropdown uk-drop" style="max-width: 1187px; top: 95px; left: 0px;">
+                  <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li class="uk-nav-divider"></li>
+                    <li><a href="#">Report an issue</a></li>
+              </li>
+            </ul>
+          </div>
+          </li>
+
+          </ul>
+          <!-- <div class="uk-navbar-item">
+            <a href="#" uk-icon="icon: user" class="uk-icon"></a>
+          </div> -->
+        </div>
+
+      </div>
+      </div>
+    </nav>
+
+
+
+    <p>Main content here.</p>
+  </body>
+
+</html>
