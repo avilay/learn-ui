@@ -1,0 +1,180 @@
+:root {
+  --dark: #143774;
+  --accent: #1792D2;
+  --light: #F8F8F8;
+  --normal: #707070;
+}
+
+@font-face {
+  src: url("./selawik.light.ttf");
+  font-family: Selawik;
+}
+
+html, body {
+  color: var(--normal);
+  font-family: "Ubuntu", sans-serif;
+  margin: 0px;
+}
+
+.container {
+  max-width: 980px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+header {
+  background-color: var(--light);
+  padding: 2em 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+
+nav h1 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 2rem;
+  
+  color: var(--dark);
+  margin: 0;
+}
+
+nav h4 {
+  
+  font-weight: 700;
+  font-size: 0.75rem;
+
+  color: var(--accent);
+  text-transform: uppercase;
+  margin: 0.5em 0 0 0;
+}
+
+.nav-list {
+  font-weight: 300;
+  font-size: 1rem;
+  text-transform: uppercase;
+  
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 675px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+}
+
+.nav-item > a:link, .nav-item > a:visited {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.nav-item > a:focus, .nav-item > a:hover {
+  color: var(--accent);
+}
+
+.nav-item > a.current {
+  text-decoration: underline;
+}
+
+.nav-item > a.current:hover {
+  color: inherit;
+}
+
+main {
+  margin: 3em 0;
+}
+
+figure {
+  margin: 0;
+}
+
+figure > img {
+  max-width: 100%;
+}
+
+figcaption {
+  font-family: "Selawick", serif;
+  font-size: 0.75rem;
+}
+
+.content h2 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  color: var(--dark);
+}
+
+.content a:link {
+  color: var(--accent);
+}
+
+.content a:hover, .content a:focus {
+  color: var(--dark);
+}
+
+.continue {
+  margin-top: 2em;
+}
+
+.continue > a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 300;
+}
+
+.intro {
+  margin-bottom: 2em;
+}
+
+.posts {
+  margin-top: 2em;
+}
+
+.post {
+  display: flex;
+  margin: 2em 0;
+}
+
+.post figure {
+  width: 20%;
+}
+
+.post .excerpt {
+  width: 80%;
+}
+
+footer {
+  background-color: var(--dark);
+  padding: 4em 0;
+  color: var(--light);
+  text-align: center;
+}
+
+footer h5 {
+  font-weight: 300;
+}

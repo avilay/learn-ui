@@ -1,0 +1,129 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.125rem;
+  color: #404040;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.poster {
+  flex: 1 1 50%;
+  min-width: 300px;
+  background-color: #404040;
+  background-image: url("./dark-ribs.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 0.5em 2em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.poster p {
+  margin: 0px;
+}
+.poster h1 {
+  margin: 0px;
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: #fff;
+}
+.poster h1 strong {
+  font-weight: 900;
+}
+.poster h2 {
+  margin: 0px;
+  font-size: 1.75rem;
+  color: #F18119;
+}
+
+.tagline {
+  margin: 0px;
+  color: #F18119;
+  font-weight: 900;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-top: 5px solid #F18119;
+}
+
+.register {
+  flex: 1 1 50%;
+  padding: 2em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register h2 {
+  margin: 0px;
+  font-size: 1.75rem;
+}
+.register h3 {
+  margin: 0px;
+  font-size: inherit;
+  color: #F18119;
+  text-transform: uppercase;
+}
+.register p {
+  text-align: center;
+  max-width: 500px;
+  margin: 1em auto;
+}
+.register form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.register input {
+  border: 1px solid #404040;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  text-align: inherit;
+  font-family: inherit;
+}
+.register button[type=submit] {
+  display: inline-block;
+  background: linear-gradient(to left, #F18119, #FFA51D);
+  color: #fff;
+  padding: 0.5em 1.25em;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+.register button[type=submit]:hover, .register button[type=submit]:focus {
+  background: linear-gradient(to left, #B55904, #F18119);
+}
+
+.fine-print {
+  font-size: 0.625rem;
+  letter-spacing: 0.75px;
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 1rem;
+  }
+  .poster h1 {
+    font-size: 2.25rem;
+  }
+  h2 {
+    font-size: 1.3125rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

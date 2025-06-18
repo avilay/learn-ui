@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grid Example</title>
+    <style>
+      html, body {
+        color: darkslategray;
+      }
+
+      .item {
+        padding: 10px;
+      }
+      
+      .item:nth-child(odd) {
+        background-color: antiquewhite;
+      }
+      
+      .item:nth-child(even) {
+        background-color: lightpink;
+      }
+
+      .container {
+        display: grid;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Grid Example</h1>
+    <div class="container">
+      <div class="item text-item" style="width: 400px;">
+        <p style="width: 600px;">
+          Fixed width item with fixed width para: It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness...
+        </p>
+      </div>
+      <div class="item text-item">
+        <p style="width: 100px;">
+          No width item with fixed width para: it was the epoch of incredulity
+        </p>
+      </div>
+      <div class="item text-item">
+        <p>
+          No width item with with no width para: it was the epoch of belief
+        </p>
+      </div>        
+    </div>
+  </body>
+</html>

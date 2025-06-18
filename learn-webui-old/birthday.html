@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Birthday</title>
+    <style>
+      @font-face {
+        src: url("/assets/HappyMonkey-Regular.ttf");
+        font-family: "Happy Monkey"
+      }
+
+      body {
+        font-family: "Happy Monkey", cursive;
+        text-align: center;
+        /* background-color: #a2d2ff; */
+        background: linear-gradient(#a2d2ff, #efb0c9);
+        color: #ffffff;
+      }
+
+      h1, h2, h3, h4, p {
+        text-shadow: 0px 0px 1px black;
+      }
+
+      #age {
+        background: #efb0c9;
+        border-radius: 6px;
+        padding: 7px 10px;
+        margin-bottom: 5px;
+      }
+
+      #date {
+        background: #efb0c9;
+        border-radius: 6px;
+        padding: 7px 10px;
+        margin-top: 5px;
+      }
+
+      #profile {
+        border-radius: 50%;
+        width: 150px;
+        border: 10px solid #efb0c9;
+      }
+
+      header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .gift {
+        margin-top: 50px;
+      }
+
+      .gift-title {
+        margin-bottom: 10px;
+      }
+
+      .gift-hint {
+        margin-top: 0;
+      }
+
+      .gift-img {
+        width: 400px;
+        height: 400px;
+        border: 6px solid white;
+        border-radius: 10px;
+        background-image: url("/assets/gift_1500x1500.jpg");
+        background-size: cover;
+        margin: 0 auto;
+      }
+
+      #gift-img-happy:hover {
+        background-image: url("/assets/happy.gif");
+      }
+
+      #gift-img-hot:hover {
+        background-image: url("/assets/hot.gif");
+      }
+
+      #gift-img-genius:hover {
+        background-image: url("/assets/genius.gif");
+      }
+
+      #gift-img-badass:hover {
+        background-image: url("/assets/badass.gif");
+      }
+
+      #gift-img-cheers {
+        height: 200px;
+      }
+
+      #gift-img-cheers:hover {
+        background-image: url("/assets/cheers.gif");
+      }
+
+      footer {
+        margin: 50px auto 30px auto;
+        width: 400px;
+        font-style: italic;
+      }
+
+      .footer-link {
+        color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Today is Qwantum's Birthday 🎉</h1>
+      <img id="profile" src="/assets/oblivion_head_shot_256x256.jpg" alt="Qwantum's head shot">
+      <h2 id="age">250 years old</h2>
+      <h4 id="date">Sun, May 25, 2025</h4>
+    </header>
+    
+    <main>
+      <div class="gift">
+        <h2 class="gift-title">Here is how happy I am for you today 🥳</h2>
+        <h3 class="gift-hint">(Hover over the gift)</h3>
+        <div id="gift-img-happy" class="gift-img"></div>
+      </div>
+      <div class="gift">
+        <h2 class="gift-title">How people react when you enter the room 😍</h2>
+        <div id="gift-img-hot" class="gift-img"></div>
+      </div>
+      <div class="gift">
+        <h2 class="gift-title">If I had to describe you with one word 👇</h2>
+        <div id="gift-img-genius" class="gift-img"></div>
+      </div>
+      <div class="gift">
+        <h2 class="gift-title">The only person as badass as you 💪</h2>
+        <div id="gift-img-badass" class="gift-img"></div>
+      </div>
+      <div class="gift">
+        <h2 class="gift-title">This one's for you, my friend 🥂</h2>
+        <div id="gift-img-cheers" class="gift-img"></div>
+      </div>
+    </main>
+
+    <footer>
+      Want to create your own Birthday GIFt site? Take <a class="footer-link" href="https://scrimba.com/learn/htmlandcss" target="_blank">this HTML & CSS course</a>
+    </footer>
+  </body>
+</html>

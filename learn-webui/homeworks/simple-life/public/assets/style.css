@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  margin: 2em 0;
+}
+
+.crop-left {
+  object-position: left;
+}
+
+.hero-image {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.container {
+  max-width: 980px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #F8F8F8;
+  padding: 2em 0;
+  margin-bottom: 3em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #143774;
+  margin: 0 0 0.25em 0;
+}
+.logo p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.75rem;
+  color: #1792D2;
+  margin: 0 0 0 0;
+  font-weight: 700;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+
+.nav-list {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #707070;
+  margin: 0 0 0 0;
+  line-height: 1.75rem;
+  list-style: none;
+  display: flex;
+  gap: 2em;
+}
+.nav-list a:link {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+.nav-list a:visited {
+  color: inherit;
+}
+.nav-list a.current {
+  text-decoration: underline;
+}
+.nav-list a:hover, .nav-list a:focus {
+  color: #1792D2;
+}
+.nav-list a.current:hover, .nav-list a.current:focus {
+  color: inherit;
+}
+
+@media (max-width: 675px) {
+  nav {
+    flex-direction: column;
+  }
+  .logo {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+.main .main-content {
+  width: 70%;
+}
+.main .sidebar {
+  width: 20%;
+}
+
+.excerpt h2 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #143774;
+  margin: 0 0 1em 0;
+}
+.excerpt p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  color: #707070;
+  margin: 0 0 1em 0;
+  line-height: 1.75rem;
+}
+.excerpt strong {
+  font-weight: 700;
+}
+.excerpt a {
+  color: #1792D2;
+}
+.excerpt a:hover, .excerpt a:focus {
+  color: #143774;
+}
+.excerpt .continue {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.875rem;
+  color: #1792D2;
+  margin: 0 0 0 0;
+  font-weight: 700;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+figure {
+  margin: 0 0 1em 0;
+}
+
+figcaption {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #707070;
+  margin: 0 0 0 0;
+  line-height: 1.75rem;
+}
+
+.post {
+  margin-bottom: 3em;
+  display: flex;
+  justify-content: space-between;
+}
+.post figure {
+  width: 30%;
+}
+.post figure img {
+  min-height: 250px;
+  object-fit: cover;
+  margin-bottom: 0.75em;
+}
+.post .excerpt {
+  width: 65%;
+}
+
+@media (max-width: 675px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .main-content {
+    width: 100%;
+  }
+  .main .sidebar {
+    width: 100%;
+  }
+  .hero-image {
+    height: 200px;
+  }
+  .post {
+    flex-direction: column;
+  }
+  .post figure {
+    width: 100%;
+  }
+  .post .excerpt {
+    width: 100%;
+  }
+}
+.card {
+  margin-bottom: 5em;
+  padding: 1em;
+  border: 1em solid #f4f4f4;
+}
+.card h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  color: #143774;
+  margin: 0 0 0.75em 0;
+  font-weight: 700;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+.card img {
+  margin-bottom: 1em;
+}
+.card p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #143774;
+  margin: 0 0 0 0;
+  line-height: 1.75rem;
+}
+.card h3 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #143774;
+  margin: 0 0 0 0;
+}
+
+footer {
+  text-align: center;
+  background-color: #143774;
+  padding: 3em 0;
+  margin: 0;
+}
+footer h5 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #f4f4f4;
+  margin: 0 0 0.5em 0;
+  line-height: 1.75rem;
+}
+footer h6 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #f4f4f4;
+  margin: 0 0 0 0;
+  line-height: 1.75rem;
+}
+
+/*# sourceMappingURL=style.css.map */

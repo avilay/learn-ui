@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grid Example</title>
+    <style>
+      html, body {
+        color: darkslategray;
+      }
+
+      .item {
+        padding: 10px;
+      }
+      
+      .item:nth-child(odd) {
+        background-color: antiquewhite;
+      }
+      
+      .item:nth-child(even) {
+        background-color: lightpink;
+      }
+
+      .container {
+        display: grid;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Grid Example</h1>
+    <div class="container">
+      <div class="item">
+        It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness...
+      </div>
+      <div class="item">
+        it was the epoch of belief
+      </div>
+    </div>
+  </body>
+</html>

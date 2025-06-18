@@ -1,0 +1,97 @@
+:root {
+  --accent: #EF5839;
+  --darker-accent: #ba2d11;
+  --dark: #2E354F;
+  --light: #FFF;
+  --darker-light: #e5e6ef;
+}
+
+html, body {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Typography */
+
+h1, h2, strong {
+  font-weight: 900;
+}
+
+h1 {
+  /* font-size: 36px; */
+  font-size: 2rem;
+}
+
+h2 {
+  /* font-size: 24px; */
+  font-size: 1.3rem;
+  color: var(--accent);
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover, a:focus {
+  color: var(--darker-accent);
+}
+
+ul {
+  font-size: 0.8rem;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.primary.button {
+  background-color: var(--accent);
+  color: var(--light);
+}
+
+.primary.button:hover, .primary.button:focus {
+  background-color: var(--darker-accent);
+}
+
+.secondary.button {
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.secondary.button:hover, .secondary.button:focus {
+  background-color: var(--darker-light);
+}
+
+/* Layout */
+
+body > * {
+  padding: 20px 0px;
+}
+
+body > :nth-child(odd) {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+body > :nth-child(even) {
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.content {
+  max-width: 620px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content img {
+  width: 100%;
+}

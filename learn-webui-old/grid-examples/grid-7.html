@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Learn FlexBox</title>
+      <style>
+        .content {
+          display: grid;
+          background-color: bisque;
+          padding: 10px;
+          grid-template-columns: repeat(4, 1fr);
+          grid-template-rows: repeat(4, 1fr);
+          gap: 5px;
+        }
+        .item {
+          border: 1px solid black;
+          padding: 5px;
+        }
+        #item1 {
+          grid-row: 1;
+          grid-column: 3;
+        }
+        #item2 {
+          grid-row: 1;
+          grid-column: 1;
+        }
+        #item3 {
+          grid-row: 4;
+          grid-column: 2/5;
+        }
+      </style>
+    </head>
+    <body>
+        <div id="root">
+            <div class="content">
+                <div id="item1" class="item" style="background-color: gray;">
+                  ITEM ONE: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+                <div id="item2" class="item" style="background-color: gray;">
+                  ITEM TWO: Not much here.
+                </div>
+                <div id="item3" class="item" style="background-color: darkgrey;">
+                  ITEM THREE: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam tempus vestibulum lacus, vitae pulvinar ante gravida non. Suspendisse potenti. 
+                  Curabitur vehicula eros sit amet dui tincidunt, in feugiat nunc placerat.
+                  Morbi nec massa id orci vulputate volutpat et sed nulla.
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -56,6 +56,8 @@ Containers center and horizontally pad content. Use `.container` for fully respo
 
 In the above example there are 4 equal sized columns in this row, which means each column would have a span of 3. But the `.row-cols-2` class on the row tells BS that it should have only two columns per row. This results in two rows with two columns each.
 
+I can use this with the breakpoints to create a container where the number of columns depend on how wide the viewport is, e.g., setting `.row-cols-md-2` instead of just `row-cols-2` tells BS that for smaller than medium viewports show 4 columns in a single row, but for larger
+
 #### Columns
 
 Columns are the workhorse class. A page has 12 conceptual columns. I can then set the physical column's width in terms of these default conceptual column widths, e.g., `.col-4` spans 4 conceptual column widths. Use `.col-{n}` for fully responsive columns and `.cols-{breakpoint}-{n}` for combination of full width and fully responsive. If I just use the `.col` class, BS will automatically figure out the column width. E.g., 

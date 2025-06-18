@@ -1,0 +1,54 @@
+body {
+  font-family: Garamond, serif;
+  color: #121212;
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.figure {
+  width: 380px;
+  border: 3px solid #121212;
+}
+
+.caption {
+  font-style: italic;
+  margin: 0 auto;
+  padding: 10px 0px;
+  width: 380px;
+}
+
+.cta {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.cta-email {
+  width: 200px;
+  padding: 10px 20px;
+  text-align: center;
+  color: inherit;
+  border: 3px solid #121212;
+}
+
+.cta-submit {
+  width: 246px;
+  padding: 10px 0px;
+  text-align: center;
+  background-color: #121212;
+  color: white;
+}
+
+footer {
+  font-style: italic;
+  font-size: small;
+}
+
+.footer-link {
+  color: inherit;
+}

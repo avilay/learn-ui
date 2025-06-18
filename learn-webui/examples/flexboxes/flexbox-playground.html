@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flexbox Playground</title>
+    <style>
+      html, body {
+        color: dimgray;
+        margin: 10px;
+      }
+
+      .container > div {
+        padding: 10px;
+        text-align: center;
+        font-size: 2em;
+      }
+
+      .container > div:nth-child(1) {
+        background-color: antiquewhite;
+      }
+
+      .container > div:nth-child(2) {
+        background-color: lightpink;
+      }
+
+      .container > div:nth-child(3) {
+        background-color: honeydew;
+      }
+
+      .container {
+        border: 5px solid darkgray;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .home {
+        flex: 0 0 300px;
+      }
+
+      .search {
+        flex: 0 0 300px;
+      }
+
+      .logout {
+        flex: 0 0 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flexbox Playground</h1>
+    <nav class="container">
+      <div class="home">Home</div>
+      <div class="search">Search</div>
+      <div class="logout">Logout</div>
+    </nav>
+  </body>
+</html>

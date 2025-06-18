@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Button Style</title>
+    <style>
+      html, body {
+        color: dimgray;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      .button {
+        display: inline-block;
+        background-color: antiquewhite;
+        color: darkslategray;
+        /* padding: 15px 30px; */
+        padding: 0.5em 1.25em;
+        text-align: center;
+
+        /* This is needed for <a> */
+        text-decoration: none;
+
+        /* These two are needed for <button>*/
+        border: 0;
+        cursor: pointer;
+      }
+
+      .button:hover, .button:focus {
+        background-color: darkslategray;
+        color: antiquewhite;
+
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Button Style</h1>
+    <main>
+      <p>
+        It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness...
+      </p>
+      <a class="button" href="https://avilay.github.io" target="_blank">Read More</a>
+      <p>More text here</p>
+    </main>
+  </body>
+</html>

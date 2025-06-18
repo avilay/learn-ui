@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+
+.card {
+  width: 90%;
+  max-width: 1008px;
+  margin: 0 auto;
+  background-color: #111d4a;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.card img {
+  flex: 0 1 250px;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+}
+.card .img {
+  flex-basis: 250px;
+  object-fit: cover;
+  background-color: yellow;
+  height: 300px;
+}
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1em;
+  padding: 2em;
+}
+.content h1, .content p {
+  margin: 0;
+  padding: 0;
+}
+.content h1 {
+  font-family: "Blinker", sans-serif;
+  font-size: 2rem;
+  color: #05cbe9;
+  text-transform: lowercase;
+}
+.content p {
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.cta {
+  margin-top: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.cta p {
+  font-family: "Blinker", sans-serif;
+  font-size: 1rem;
+  text-transform: lowercase;
+  margin: 0;
+  line-height: normal;
+}
+.cta span {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.semi-transparent {
+  opacity: 50%;
+}
+
+.primary.button {
+  display: inline-block;
+  background-color: #05cbe9;
+  padding: 0.5em 1.25em;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  font-family: "Blinker", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111d4a;
+  text-transform: lowercase;
+}
+
+.primary.button:hover, .primary.button:focus {
+  background-color: #036a7a;
+}
+
+@media (max-width: 500px) {
+  html, body {
+    font-size: 16px;
+  }
+  .card {
+    flex-flow: column nowrap;
+  }
+  .img {
+    height: 0%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

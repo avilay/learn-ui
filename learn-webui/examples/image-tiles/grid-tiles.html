@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Image Tiles</title>
+    <style>
+      html, body {
+        color: dimgray;
+      }
+
+      .container > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container > div > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .container {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-auto-rows: 75px;
+        grid-auto-flow: dense;
+      }
+
+      .landscape {
+        grid-column: span 2;
+      }
+
+      .portrait {
+        grid-row: span 2;
+      }
+
+      .big {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Image Tiles</h1>
+    <div class="container">
+      <div>
+        <img src="./assets/normal1.jpg"/>
+      </div>
+      <div class="portrait">
+        <img src="./assets/vertical1.jpg"/>
+      </div>
+      <div class="landscape">
+        <img src="./assets/horizontal1.jpg"/>
+      </div>
+      <div>
+        <img src="./assets/normal2.jpg"/>
+      </div>
+      <div>
+        <img src="./assets/normal3.jpg"/>
+      </div>
+      <div class="big">
+        <img src="./assets/big1.jpg"/>
+      </div>
+      <div>
+        <img src="./assets/normal4.jpg"/>
+      </div>
+      <div class="portrait">
+        <img src="./assets/vertical2.jpg"/>
+      </div>
+      <div>
+        <img src="./assets/normal5.jpg"/>
+      </div>
+      <div class="landscape">
+        <img src="./assets/horizontal2.jpg"/>
+      </div>
+      <div>
+        <img src="./assets/normal6.jpg"/>
+      </div>
+      <div class="big">
+        <img src="./assets/big2.jpg"/>
+      </div>
+      <div>
+        <img src="./assets/normal7.jpg"/>
+      </div>
+      <div class="landscape">
+        <img src="./assets/horizontal3.jpg"/>
+      </div>
+      <div>
+        <img src="./assets/normal8.jpg"/>
+      </div>
+      <div class="big">
+        <img src="./assets/big3.jpg"/>
+      </div>
+      <div>
+        <img src="./assets/normal9.jpg"/>
+      </div>
+      <div class="portrait">
+        <img src="./assets/vertical3.jpg"/>
+      </div>
+    </div>
+  </body>
+</html>

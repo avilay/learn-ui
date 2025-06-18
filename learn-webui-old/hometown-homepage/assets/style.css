@@ -1,0 +1,93 @@
+body {
+  margin: 0px;
+  text-align: center;
+}
+
+header {
+  height: 400px;
+  background-image: url("./seattle-skyline_1440x400.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #F1FAEE;
+}
+
+#title {
+  background-color: #1D3557;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 12px;
+}
+
+#subtitle {
+  background-color: #457B9D;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 0px 100px;
+}
+
+.activities-section {
+  background-color: #F1FAEE;
+  padding: 40px 0px 0px 0px;
+  color: #1D3557;
+}
+
+.activities-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.activities {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 20px;
+  gap: 20px;
+}
+
+.activity {
+  border: 1px solid #F1FAEE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.activity:hover {
+  border: 1px solid #1D3557;
+  border-radius: 10px;
+  background-color: #1D3557;
+  color: #F1FAEE;
+}
+
+.activity-img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.activity-title {
+  margin: 12px 0px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+  width: 400px;
+  background-color: #A8DADC;
+  border-radius: 10px;
+  color: #1D3557;
+  box-shadow: 0px 7px 0px #1D3557;
+}
+
+.quote {
+  font-style: italic;
+  padding: 0 7px;
+}
+
+.card-img {
+  width: 200px;
+  margin: 12px;
+  border-radius: 10px;
+}

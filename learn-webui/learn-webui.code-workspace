@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../learn-webui-old"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "learn-webui"
+	}
+}

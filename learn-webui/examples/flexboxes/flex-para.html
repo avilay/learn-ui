@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flex Example</title>
+    <style>
+      html, body {
+        color: darkslategray;
+      }
+
+      .text-item {
+        padding: 10px;
+      }
+      
+      .text-item:nth-child(odd) {
+        background-color: antiquewhite;
+      }
+      
+      .text-item:nth-child(even) {
+        background-color: lightpink;
+      }
+
+      .container {
+        display: flex;
+        outline: 1px solid gray;
+      }
+
+      .item-one, .item-two, .item-three {
+        flex: 0 0 auto;
+      }
+
+      .item-one {
+        width: 400px;
+      }
+
+      .item-one > p {
+        width: 600px;
+      }
+
+      .item-two > p {
+        width: 100px;
+      }
+
+      .item-four, .item-five, .item-six {
+        flex: 0 0 400px;
+      }
+
+      .item-four > p {
+        width: 600px;
+      }
+
+      .item-five > p {
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flex Paragraph Examples</h1>
+
+    <h2>Paragraphs</h2>
+    <h3>Flex items without any basis set</h3>
+    <p>
+      All the flex items are <code>0 0 auto</code>, which means that they won't grow or shrink and will take on their "natural" width.
+    </p>
+    <ul>
+      <li>The first item is fixed-width and has a fixed-width child element. The child is wider than the parent, which is why content is overflowing.</li>
+      <li>The second item does not have any width specified, but has a fixed-width child. The item takes on the width of the child.</li>
+      <li>For the third item, neither the item itself, nor its child have any width specified. The child takes on the max-width of the #text, and the parent flex item takes on the width of its child.</li>
+    </ul>
+    <div class="container">
+      <div class="item-one text-item">
+        <p>
+          Fixed width item with fixed width para: It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness...
+        </p>
+      </div>
+      <div class="item-two text-item">
+        <p>
+          No width item with fixed width para: it was the epoch of incredulity
+        </p>
+      </div>
+      <div class="item-three text-item">
+        <p>
+          No width item with with no width para: it was the epoch of belief
+        </p>
+      </div>
+    </div>
+
+    <h3>Flex items with basis</h3>
+    <p>All the flex items are <code>0 0 400px</code>, which means again that they won't grow or shrink but will try to keep to 400px.</p>
+    <ul>
+      <li>The first item has a wider fixed width child, so it expands to take on the width of its child.</li>
+      <li>The second item has a narrower fixed width child, it keeps its basis width and the child keeps its fixed width.</li>
+      <li>The third item has a no width child with the leaf child being #text, so they all keep the basis width with the text becoming responsive. </li>
+    </ul>
+    <div class="container">
+      <div class="item-four text-item">
+        <p>
+          Basis item with wider fixed width para: It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness...
+        </p>
+      </div>
+      <div class="item-five text-item">
+        <p>
+          Basis item with narrower fixed width para: it was the epoch of incredulity
+        </p>
+      </div>
+      <div class="item-six text-item">
+        <p>
+          Basis item with with no width para: it was the epoch of belief
+        </p>
+      </div>
+    </div>
+    
+  </body>
+</html>

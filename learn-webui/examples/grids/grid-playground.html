@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grid Playground</title>
+    <style>
+      /* Visual props */
+      .container > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+      }
+
+      html, body {
+        color: dimgray;
+        margin: 10px;
+        height: 100%;
+        margin: 0px;
+      }
+
+      .container > div:nth-child(odd) {
+        background-color: antiquewhite;
+      }
+
+      .container > div:nth-child(even) {
+        background-color: lightpink;
+      }
+
+      .container {
+        height: 100%;
+        display: grid;
+        grid-template: 40px 1fr 40px / repeat(12, 1fr);
+        gap: 3px; 
+        grid-template-areas:
+          "m h h h h h h h h h h h"
+          "m c c c c c c c c c c c"
+          "m f f f f f f f f f f f"
+      }
+
+      .header {
+        grid-area: h;
+      }
+
+      .menu {
+        grid-area: m;
+      }
+
+      .content {
+        grid-area: c;
+      }
+
+      .footer {
+        grid-area: f;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">HEADER</div>
+      <div class="menu">MENU</div>
+      <div class="content">CONTENT</div>
+      <div class="footer">FOOTER</div>
+    </div>
+  </body>
+</html>

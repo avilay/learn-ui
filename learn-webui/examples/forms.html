@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <title>Forms Example</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        text-align: center;
+      }
+
+      form {
+        width: 500px;
+        margin: 0 auto;
+        text-align: start;
+        background-color: lightgray;
+        padding: 2em;
+      }
+
+      input {
+        margin-bottom: 1em;
+        padding: 0.2em;
+      }
+
+      label:has(input:required)::after {
+        content: "*";
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Forms Example</h1>
+    <p>Try to hit submit without filling out the email field.</p>
+    <form action="#" method="post">
+      <label>Name:
+        <input type="text">
+      </label>
+      <br>
+      <label>Email:
+        <input type="email" required>
+      </label>
+      <br>
+      <label>Hours played:
+        <input type="number" min="2" max="10">
+      </label>
+      <br>
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>

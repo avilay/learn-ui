@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>HTML Scratch</title>      
+      <style>
+        html, body {
+          background-color: #ffeead;
+          margin: 10px;
+          color: #496357;
+        }
+
+        .container {
+          display: grid;
+          grid-template-columns: 100px auto;
+          grid-template-rows: 50px 50px 50px;
+          gap: 3px;
+        }
+
+        .container > div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 2em;
+          color: #ffeead;          
+        }
+
+        .container > div:nth-child(1n) {
+          background-color: #96ceb4;
+        }
+
+        .container > div:nth-child(2n) {
+          background-color: #ff6f69;
+        }
+
+        .container > div:nth-child(3n) {
+          background-color: #88d8b0;
+        }
+        
+        .container > div:nth-child(4n) {
+          background-color: #ffcc5c;
+        }
+
+        
+      </style>
+    </head>
+    <body>
+      <h1>Scratch Page</h1>
+      <div class="container">
+        <div><p>1</p></div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+      </div>
+    </body>
+</html>

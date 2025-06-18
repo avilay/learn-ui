@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flex Example</title>
+    <style>
+      html, body {
+        color: darkslategray;
+        margin: 0;
+      }
+
+      .container {
+        display: flex;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+
+      }
+
+      .item-three {
+        flex: 0 0 80%;
+      }
+
+      .item-four {
+        flex: 0 0 20%;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flex Image Example</h1>
+    
+    <h2>Images as Items</h2>
+
+    <div class="container">
+      <div class="item-three"><img src="/examples/assets/generic-1024x128.png"></div>
+      <div class="item-four"><img src="/examples/assets/generic-128x128.png"></div>
+    </div>
+
+  </body>
+</html>

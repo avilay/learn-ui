@@ -1,0 +1,281 @@
+$dark-color: #143774;
+$accent-color: #1792D2;
+$normal-color: #707070;
+$lighter-color: #f4f4f4;
+$light-color: #F8F8F8;
+
+@mixin to-upper($spacing: 1px) {
+  letter-spacing: $spacing;
+  text-transform: uppercase;
+}
+
+@mixin heading($size: 1rem, $margin-bottom: 0) {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: $size;
+  color: $dark-color;
+  margin: 0 0 $margin-bottom 0;
+}
+
+@mixin subheading($size: 1rem, $margin-bottom: 0, $font-color: $accent-color) {
+  font-family: "Ubuntu", sans-serif;
+  font-size: $size;
+  color: $font-color;
+  margin: 0 0 $margin-bottom 0;
+  font-weight: 700;
+  // @include to-upper($spacing: 0.125rem);
+  @include to-upper($spacing: 2px);
+}
+
+@mixin content($size: 1rem, $margin-bottom: 0, $font-color: $normal-color, $font-weight: 300) {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: $font-weight;
+  font-size: $size;
+  color: $font-color;
+  margin: 0 0 $margin-bottom 0;
+  line-height: 1.6;
+}
+
+// Base Styles
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  margin: 2em 0;
+}
+
+.crop-left {
+  object-position: left;
+}
+
+.hero-image {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.container {
+  max-width: 980px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+// Header
+header {
+  background-color: $light-color;
+  padding: 2em 0;
+  margin-bottom: 3em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  h1 {
+    @include heading($size: 2rem, $margin-bottom: 0.25em);
+  }
+
+  p {
+    @include subheading($size: 0.75rem);
+  }
+}
+
+.nav-list {
+  @include content;
+  list-style: none;
+
+  display: flex;
+  gap: 2em;
+
+  a:link {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 700;
+    @include to-upper;
+  }
+
+  a:visited {
+    color: inherit;
+  }
+
+  a.current {
+    text-decoration: underline;
+  }
+
+  a:hover, a:focus {
+    color: $accent-color;
+  }
+
+  a.current:hover, a.current:focus {
+    color: inherit;
+  }
+}
+
+@media (max-width: 675px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .logo {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+}
+
+// Main
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+
+  .main-content {
+    width: 70%;
+  }
+
+  .sidebar {
+    width: 20%;
+  }
+}
+
+.excerpt {
+  h2 {
+    @include heading($size: 1.5rem, $margin-bottom: 1em);
+  }
+
+  p {
+    @include content($size: 1.125rem, $margin-bottom: 1em);
+  }
+
+  strong {
+    font-weight: 700;
+  }
+
+  a {
+    color: $accent-color;
+  }
+
+  a:hover, a:focus {
+    color: $dark-color;
+  }
+
+  .continue {
+    @include subheading($size: 0.875rem);
+    text-decoration: none;
+  }
+
+}
+
+figure {
+  margin: 0 0 1em 0;
+}
+
+figcaption {
+  @include content($size: 0.875rem);
+}
+
+.post {
+  margin-bottom: 3em;
+
+  display: flex;
+  justify-content: space-between;
+
+  figure {
+    width: 30%;
+
+    img {
+      min-height: 250px;
+      object-fit: cover;
+      margin-bottom: 0.75em;
+    }
+  }
+
+  .excerpt {
+    width: 65%;
+  }
+}
+
+@media (max-width: 675px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+
+    .main-content {
+      width: 100%;
+    }
+
+    .sidebar {
+      width: 100%;
+    }
+  }
+
+  .hero-image {
+    height: 200px;
+  }
+
+  .post {
+    flex-direction: column;
+
+    figure {
+      width: 100%;
+    }
+
+    .excerpt {
+      width: 100%;
+    }
+  }
+}
+
+
+.card {
+  margin-bottom: 5em;
+  padding: 1em;
+  border: 1em solid $lighter-color;
+
+  h2 {
+    @include subheading($font-color: $dark-color, $margin-bottom: 0.75em);
+  }
+
+  img {
+    margin-bottom: 1em;
+  }
+
+  p {
+    @include content($font-color: $dark-color);
+  }
+
+  h3 {
+    @include heading($size: 1rem);
+  }
+}
+
+// Footer
+footer {
+  text-align: center;
+  background-color: $dark-color;
+  padding: 3em 0;
+  margin: 0;
+  
+  h5 {
+    @include content($font-weight: 700, $margin-bottom:0.5em, $font-color: $lighter-color);
+  }
+
+  h6 {
+    @include content($font-color: $lighter-color);
+  }
+}
