@@ -26,4 +26,4 @@ Release/
 **/*.o
 **/dist-newstyle
 **/node_modules
-
+**/secrets.toml

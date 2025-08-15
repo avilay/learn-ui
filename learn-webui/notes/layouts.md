@@ -138,10 +138,10 @@ I can set the basis value to some specific value in terms of pixels, %ages, etc.
 >
 > ```css
 > img {
->   flex-basis: 250px;
->   object-fit: cover;
->   min-height: 0;
->   min-width: 0;
+>     flex-basis: 250px;
+>     object-fit: cover;
+>     min-height: 0;
+>     min-width: 0;
 > }
 > ```
 >
@@ -211,8 +211,6 @@ flex: 200px;
 /* equivalent to flex: 0 1 auto; */
 flex: initial;
 ```
-
-
 
 An example where it became necessary to use media queries when using flexbox is when all my items are text only. Lets say I have a 3-column layout and I have set the flexbox for each column as follows -
 
